@@ -56,7 +56,7 @@ Le projet suit l’architecture MVC (Model - View - Controller) proposée par La
 ### 1. Cloner le projet
 
 ```bash
-git clone https://github.com/votre-compte/nom-du-repository.git
+git clone https://github.com/salma-tariq-m/gestion-des-emplois-de-temps.git
 ````
 
 ### 2. Accéder au dossier
