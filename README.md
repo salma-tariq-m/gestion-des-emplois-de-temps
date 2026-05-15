@@ -44,19 +44,6 @@ Le projet suit l’architecture MVC (Model - View - Controller) proposée par La
 
 ---
 
-## Captures d’écran
-
-### Tableau de bord administrateur
-Ajoutez ici une capture d’écran
-
-### Gestion des séances
-Ajoutez ici une capture d’écran
-
-### Gestion des formateurs
-Ajoutez ici une capture d’écran
-
----
-
 ## Documentation
 
 📄 Rapport complet du projet :  
