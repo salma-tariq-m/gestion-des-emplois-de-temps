@@ -62,7 +62,7 @@ git clone https://github.com/salma-tariq-m/gestion-des-emplois-de-temps.git
 ### 2. Accéder au dossier
 
 ```bash
-cd nom-du-repository
+cd gestion-des-emplois-de-temps
 ```
 
 ### 3. Installer les dépendances
