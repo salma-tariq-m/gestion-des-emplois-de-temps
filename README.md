@@ -54,9 +54,37 @@ L’objectif principal est de centraliser, automatiser et moderniser la planific
 
 ## 💻 Installation et Configuration
 
-Suivez ces étapes pour installer le projet localement :
+Suivez ces étapes pour installer et lancer le projet localement :
 
-### 1. Cloner le dépôt
+### 1. Cloner le dépôt et accéder au dossier
 ```bash
 git clone [https://github.com/salma-tariq-m/gestion-des-emplois-de-temps.git](https://github.com/salma-tariq-m/gestion-des-emplois-de-temps.git)
 cd gestion-des-emplois-de-temps
+2. Installer les dépendances PHP
+Bash
+composer install
+3. Configurer le fichier d'environnement
+Bash
+cp .env.example .env
+Ouvrez ensuite le fichier .env fraîchement créé pour y configurer les accès à votre base de données locale :
+
+مقتطف الرمز
+DB_DATABASE=nom_de_votre_base_de_donnees
+DB_USERNAME=votre_utilisateur_mysql
+DB_PASSWORD=votre_mot_de_passe
+4. Initialiser l'application
+Bash
+# Générer la clé unique de l'application
+php artisan key:generate
+
+# Exécuter les migrations pour créer les tables
+php artisan migrate
+5. Lancer le serveur de développement
+Bash
+php artisan serve
+L'application sera alors accessible sur : http://127.0.0.1:8000
+
+👩‍💻 Auteur
+TARIQ Salma
+
+Développeuse Full-Stack
